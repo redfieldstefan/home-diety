@@ -1,0 +1,11 @@
+<nav data-ng-controller="NavController">
+  <div id="logo">Logo</div>
+  <ul>
+    <li>About</li>
+    <li>Examples</li>
+    <li>Contact</li>
+    <li data-ng-show="!signedIn">Sign In</li>
+    <li data-ng-show="signedIn">Task Groups</li>
+    <li data-ng-show="signedIn">Log Out</li>
+  </ul>
+</nav>

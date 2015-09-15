@@ -1,0 +1,28 @@
+nav {
+  margin: 0;
+  width: 100%;
+  background-color: white;
+  float: left;
+  height: 75px;
+}
+
+nav #logo {
+  float: left;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+}
+
+nav ul li {
+  float: left;
+  padding-right: 25px;
+  color: tomato;
+  font-size: 15px;
+}
+
+nav ul li:hover {
+  cursor: pointer;
+  color: #6699CC;
+}
