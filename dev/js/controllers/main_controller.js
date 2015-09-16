@@ -11,9 +11,9 @@ module.exports = function(app) {
 
     $scope.homeAnimations = function() {
       var tl = new TimelineLite();
-      tl.from('.mega-header', 1, {x: -800})
-      .from('.head p', 1, {x: 1000})
-      .from('.head button', 2, {opacity: 0, delay: .5});
+      tl.from('.mega-header', 2, {opacity: 0}, 'one')
+      .from('.head p', 2, {opacity: 0, delay: .25}, 'one')
+      .from('.head button', 1, {opacity: 0});
     }
 
     $scope.redirect = function(destination) {
